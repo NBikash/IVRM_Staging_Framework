@@ -37,6 +37,8 @@ src/test/java : This folder contains package of actual test scripts i.e. com.IVR
 
 
 src/test/resources : This folder contatins all data driven related files like property file,Excel file and script related data.
+
+
 test-output : This Folder contains all output related data ,reports as well, Here we mainly use TestNG Emailablereport.html. And we also implimented a customize extent report here in our framework.
 
 
