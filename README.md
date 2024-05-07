@@ -1,7 +1,7 @@
 Welcome to IVRM_Staging_Framework 
 ### About ###
 IVRM_Staging_Framework is a Selenium based Framework is a suite of automation testing tools based on the java framework. 
-In this whole framework, we have used frameworks like TestNg,Modular driven framework and data driven framework with Page Object Model Java design Pattern
+In this whole framework, we have used frameworks like TestNg,Method driven framework,Modular driven framework and data driven framework with Page Object Model Java design Pattern
 It could run the tests directly on the target browser, drive the interactions on the required web page and rerun them without any manual input. 
 It eliminates repetitive manual testing that consumes lots of time and effort.. It is designed to Increased Productivity and Efficiency.
 
