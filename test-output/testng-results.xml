@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[open browser]]>
+    </line>
+    <line>
+      <![CDATA[page verified]]>
+    </line>
+    <line>
+      <![CDATA[Login successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test started at: 2024-05-07 13:51:52]]>
+    </line>
+    <line>
+      <![CDATA[we have 9 sub modules under Preadmission Module]]>
+    </line>
+    <line>
+      <![CDATA[  Master Configuration]]>
+    </line>
+    <line>
+      <![CDATA[  Document View]]>
+    </line>
+    <line>
+      <![CDATA[  Pre admission Points]]>
+    </line>
+    <line>
+      <![CDATA[  Application Form]]>
+    </line>
+    <line>
+      <![CDATA[  Interview Schedule]]>
+    </line>
+    <line>
+      <![CDATA[  Marks Entry]]>
+    </line>
+    <line>
+      <![CDATA[  Pre admission Status]]>
+    </line>
+    <line>
+      <![CDATA[  Transfer Student]]>
+    </line>
+    <line>
+      <![CDATA[  Reports]]>
+    </line>
+    <line>
+      <![CDATA[Test ended at: 2024-05-07 13:52:10]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-07T13:51:43 IST" name="Default suite" finished-at="2024-05-07T13:52:12 IST" duration-ms="29069">
+    <groups>
+      <group name="regression">
+        <method signature="PreAdmission_ApplicationForm.Applicationform()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" name="Applicationform" class="com.IVRM.TestScripts.PreAdmission_ApplicationForm"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="PreAdmission_ApplicationForm.Applicationform()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" name="Applicationform" class="com.IVRM.TestScripts.PreAdmission_ApplicationForm"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-05-07T13:51:43 IST" name="Default test" finished-at="2024-05-07T13:52:12 IST" duration-ms="29069">
+      <class name="com.IVRM.TestScripts.PreAdmission_ApplicationForm">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:51:43 IST" name="BeforeTest" finished-at="2024-05-07T13:51:43 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:51:43 IST" name="openbrowser" finished-at="2024-05-07T13:51:51 IST" duration-ms="8762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[open browser]]>
+            </line>
+            <line>
+              <![CDATA[page verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:51:52 IST" name="login" finished-at="2024-05-07T13:51:52 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Applicationform()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:51:52 IST" name="Applicationform" finished-at="2024-05-07T13:52:10 IST" duration-ms="17904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started at: 2024-05-07 13:51:52]]>
+            </line>
+            <line>
+              <![CDATA[we have 9 sub modules under Preadmission Module]]>
+            </line>
+            <line>
+              <![CDATA[  Master Configuration]]>
+            </line>
+            <line>
+              <![CDATA[  Document View]]>
+            </line>
+            <line>
+              <![CDATA[  Pre admission Points]]>
+            </line>
+            <line>
+              <![CDATA[  Application Form]]>
+            </line>
+            <line>
+              <![CDATA[  Interview Schedule]]>
+            </line>
+            <line>
+              <![CDATA[  Marks Entry]]>
+            </line>
+            <line>
+              <![CDATA[  Pre admission Status]]>
+            </line>
+            <line>
+              <![CDATA[  Transfer Student]]>
+            </line>
+            <line>
+              <![CDATA[  Reports]]>
+            </line>
+            <line>
+              <![CDATA[Test ended at: 2024-05-07 13:52:10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Applicationform -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:52:10 IST" name="logout" finished-at="2024-05-07T13:52:10 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:52:10 IST" name="closeBrowser" finished-at="2024-05-07T13:52:11 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.IVRM.TestScripts.PreAdmission_ApplicationForm@3246fb96]" started-at="2024-05-07T13:52:11 IST" name="AfterTest" finished-at="2024-05-07T13:52:12 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.IVRM.TestScripts.PreAdmission_ApplicationForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
