@@ -6,9 +6,9 @@ It could run the tests directly on the target browser, drive the interactions on
 It eliminates repetitive manual testing that consumes lots of time and effort.. It is designed to Increased Productivity and Efficiency.
 
 ### Features ###
+Placement : ![image](https://github.com/NBikash/IVRM_Staging_Framework/assets/142663912/5686801e-1fc4-4ff6-a80a-3fd49439cd35)
 Baseclass : Baseclass contains all the configuration methods like all annotations of TestNg to perform appropriate actions .
-                   Location:![image](https://github.com/NBikash/IVRM_Staging_Framework/assets/142663912/5686801e-1fc4-4ff6-a80a-3fd49439cd35)
-                           src/main/java--com.IVRM.Generic--Baseclass.java
+                    Location: src/main/java--com.IVRM.Generic--Baseclass.java
 FileLibrary class : FileLibrary class contains all the methods to take common data and test script data from property file and Excel file by specifying only desired inputs.
                    Location: src/main/java--com.IVRM.Generic--FileLibrary.java
 Generic class : Generic class contains all the common methods to perform same actions simply by calling the method name in different classes and by providing desired inputs. 
