@@ -5,6 +5,10 @@ In this whole framework, we have used frameworks like TestNg,Method driven frame
 It could run the tests directly on the target browser, drive the interactions on the required web page and rerun them without any manual input. 
 It eliminates repetitive manual testing that consumes lots of time and effort.. It is designed to Increased Productivity and Efficiency.
 
+### Contributors
+
+- [Bikash Nayak](NBikash) - nbikash9583@gmail.com
+
 ### Features ###
 Placement : ![image](https://github.com/NBikash/IVRM_Staging_Framework/assets/142663912/5686801e-1fc4-4ff6-a80a-3fd49439cd35)
 
