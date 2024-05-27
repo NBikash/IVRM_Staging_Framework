@@ -16,6 +16,8 @@ public class Homepage {
 	/**
 	 * This class contains all webElements present in Homepage
 	 */
+	
+	//Preadmission module and submodules
 	@FindBy(xpath="//span[text()='Preadmission']/..")
 	private WebElement Preadmissionmodule;
 	@FindBy(xpath="//li[@class='treeview ng-scope active']/ul/li")
@@ -24,6 +26,8 @@ public class Homepage {
 	private WebElement Applicationformsubmodule;
 	@FindBy(xpath="//span[text()='Application Form']/../..//li")
 	private WebElement Applicationformoption;
+	
+	//Logout
 	@FindBy(xpath="//b[text()='Log-Out']/../..")
 	private WebElement logoutbtn;
 	@FindBy(xpath="//button[text()='Log Out']")
@@ -57,8 +61,7 @@ public class Homepage {
 	}
 	public void logout() throws InterruptedException {
 		g.waitForVisibility(logoutbtn, 10);
-		logoutbtn.click();
-		//Thread.sleep(5000);
+		logoutbtn.click();		
 		g.waitForVisibility(finallogout, 10);
 		finallogout.click();
 	}

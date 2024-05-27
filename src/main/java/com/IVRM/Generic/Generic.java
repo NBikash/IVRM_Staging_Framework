@@ -2,11 +2,16 @@ package com.IVRM.Generic;
 
 import static org.testng.Assert.assertTrue;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 
 import org.openqa.selenium.WebElement;
@@ -258,6 +263,47 @@ public class Generic extends Baseclass {
 		
 		
 	}
+	
+	 /**
+     * This is the Generic customized method designed to handle synchronization issue based on iteration
+     * @param j  i.e. iteration count
+     * @param element  
+     */
+		
+	public void CustomWait(int j,WebElement element) {
+		int i=1;
+		while(i<=j) {
+		try {
+			element.click();
+			break;
+		}
+		catch(Exception e)
+		{
+			i++;
+		}
+		}
+	}
+	
+	/**
+	 * This is the Generic method designed to take screenshot 
+	 * @return path name where screenshot stored
+	 */
+	public String failscreenshot() {
+		TakesScreenshot t=(TakesScreenshot)driver;
+		File src = t.getScreenshotAs(OutputType.FILE);
+		File f =new File("./src/test/resources/Failscr.png");
+		String path=f.getAbsolutePath();
+		
+		try {
+			FileUtils.copyFile(src,f);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return path;
+	}
+	
+	
 	 
 
 

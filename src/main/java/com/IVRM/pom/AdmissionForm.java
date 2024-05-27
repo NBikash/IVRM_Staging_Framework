@@ -191,8 +191,9 @@ public class AdmissionForm  {
 		citytbx.sendKeys(city);
 		double pin = f.readnumExcel("Sheet1", 1, 5);
 		String pin1=String.valueOf(pin);
-		pincodetbx.sendKeys(pin1);
-		residentaddresscheckbox.click();
+		pincodetbx.sendKeys(pin1);	
+		g.CustomWait(500,residentaddresscheckbox );
+		
 		
 	}
 	public void fatherdetails() throws EncryptedDocumentException, IOException {
